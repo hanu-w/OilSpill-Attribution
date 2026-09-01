@@ -1,0 +1,107 @@
+{
+  "sourceFiles": [
+    "events-encounters-IND_PAN_LBR_MHL_MLT_SGP_ARE_20260820_20260827.jsonl",
+    "events-fishing-IND_20260820_20260827.jsonl",
+    "events-gaps-IND_20260820_20260827.jsonl",
+    "events-loitering-IND_20260820_20260827.jsonl",
+    "events-loitering-PAN_LBR_MHL_MLT_SGP_ARE_20260820_20260827.jsonl",
+    "events-port-visits-IND_20260820_20260827.jsonl",
+    "events-port-visits-PAN_LBR_MHL_MLT_SGP_ARE_20260820_20260827.jsonl"
+  ],
+  "rawEventsRead": 16662,
+  "parsedEvents": 16662,
+  "deduplicated": 1,
+  "invalidCoordsDropped": 0,
+  "outsideBboxDropped": 13123,
+  "validInRegionEvents": 3538,
+  "rawVessels": 969,
+  "vesselsByType": {
+    "tanker": 0,
+    "cargo": 65,
+    "container": 0,
+    "fishing": 16,
+    "patrol": 0,
+    "other": 888
+  },
+  "vesselTiers": {
+    "1 event": 588,
+    "2-3 events": 128,
+    "4+ events": 253
+  },
+  "medianEventSpanH": 178.2,
+  "eventsByType": {
+    "fishing": 39,
+    "loitering": 767,
+    "port-visit": 2732
+  },
+  "landValidation": {
+    "eventsOnLand": 481,
+    "eventsNotSafeWater": 1248,
+    "eventsOutsideGridCoverage": 51,
+    "onLandByEventType": {
+      "fishing": {
+        "n": 39,
+        "onLand": 4,
+        "offGrid": 0
+      },
+      "loitering": {
+        "n": 767,
+        "onLand": 0,
+        "offGrid": 0
+      },
+      "port-visit": {
+        "n": 2732,
+        "onLand": 477,
+        "offGrid": 0
+      }
+    },
+    "segmentCrossingsLand": 607,
+    "segmentsLeavingSafeWater": 1427
+  },
+  "sanity": {
+    "impossibleSpeedJumps": 7,
+    "overlappingEventArtifacts": 142,
+    "largeGeographicJumps": 4,
+    "longDurationEvents": 570,
+    "maxImpliedSpeedKn": 73.3,
+    "vesselsWithLandEvents": 191
+  },
+  "flagsByType": {
+    "IND": 3456,
+    "SGP": 6,
+    "PAN": 18,
+    "LBR": 21,
+    "MHL": 27,
+    "MLT": 9,
+    "ARE": 1
+  },
+  "portCalls": {
+    "byPort": {
+      "MUMBAI": 591,
+      "PORBANDAR": 13,
+      "HAZIRA": 125,
+      "VADINAR": 1,
+      "KANDLA": 15,
+      "PIPAVAV": 18,
+      "BEDI": 121,
+      "GHOGHA ANCHORAGE": 61,
+      "MUNDRA": 19,
+      "DAHEJ": 8,
+      "KARANJE": 76,
+      "OKHA": 2,
+      "NHAVA SHEVA": 4,
+      "NAVLAKHI": 44,
+      "BHAVNAGAR NEW PORT": 92,
+      "IND-71": 1,
+      "MAGDALLA": 3,
+      "SIKKA": 229,
+      "IND-47": 2,
+      "IND-217": 7,
+      "IND-173": 1,
+      "IND-118": 1,
+      "IND-175": 4,
+      "KARACHI": 1
+    },
+    "unnamed": 1293
+  }
+}

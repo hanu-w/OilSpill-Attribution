@@ -1,3 +1,18 @@
+
+# Local acquisition workspace (large raw AIS downloads stay out of git)
+data/raw/
+
+# Node
+node_modules
+dist
+dist-ssr
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 # Python
 .venv/
 __pycache__/
